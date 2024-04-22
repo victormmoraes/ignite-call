@@ -12,6 +12,10 @@ export default function Register() {
   const hasAuthError = !!router.query.error
   const isSignedIn = session.status === 'authenticated'
 
+  async function handleConnectCalendar() {
+    await signIn('google')
+  }
+
   return (
     <Container>
       <Header>
@@ -37,7 +41,7 @@ export default function Register() {
             <Button
               variant="secondary"
               size="sm"
-              onClick={() => signIn('google')}
+              onClick={handleConnectCalendar}
             >
               Conectar
               <ArrowRight />
