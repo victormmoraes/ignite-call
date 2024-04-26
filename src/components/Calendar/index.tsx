@@ -32,7 +32,7 @@ export function Calendar() {
       <CalendarBody>
         <thead>
           <tr>
-            {shortWeekDays.map((weekDay, index) => {
+            {shortWeekDays.map((weekDay) => {
               return <th key={weekDay}>{weekDay}.</th>
             })}
           </tr>
