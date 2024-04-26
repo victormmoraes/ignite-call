@@ -43,16 +43,23 @@ export function Calendar() {
             <td>
               <CalendarDay>1</CalendarDay>
             </td>
+
             <td>
               <CalendarDay>2</CalendarDay>
             </td>
+
             <td>
               <CalendarDay>3</CalendarDay>
             </td>
-            <CalendarDay>4</CalendarDay>
+
+            <td>
+              <CalendarDay>4</CalendarDay>
+            </td>
+
             <td>
               <CalendarDay>5</CalendarDay>
             </td>
+
             <td>
               <CalendarDay>6</CalendarDay>
             </td>
